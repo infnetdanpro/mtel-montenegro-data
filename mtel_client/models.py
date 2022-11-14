@@ -62,22 +62,24 @@ class Balance(UserBalance):
 
 
 class UserTariffInfo(BaseModel):
-    subscriptionType: str = None,
+    subscriptionType: str = (None,)
     balance: Balance
     headerDescription: str = None
     headerTitle: str = None
     subscriberIdentity: str
 
+
 class Resource(BaseModel):
     info: str = None
     order: int = None
-    remainingValue: str =None
+    remainingValue: str = None
     unitOfMeasure: str = None
     usageType: str = None
     value: str = None
 
+
 class Service(BaseModel):
-    type: str = None,
+    type: str = (None,)
     resources: List[Resource] = []
 
 
