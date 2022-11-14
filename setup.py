@@ -9,5 +9,5 @@ setup(
     author="Maksim Artemev",
     author_email="danpro334@gmail.com",
     packages=["mtel_client"],
-    install_requires=["httpx>=0.13.0", "pydantic[email]"],
+    install_requires=["httpx", "pydantic[email]"],
 )
