@@ -4,7 +4,7 @@
 ```python
 from mtel_client.client import Profile
 
-data = Profile(email='test@test.com', password="test")
+data = Profile(email="test@test.com", password="test")
 
 data.user
 data.balance
