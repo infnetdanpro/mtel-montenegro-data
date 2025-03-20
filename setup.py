@@ -6,8 +6,8 @@ setup(
     version=__version__,
     description="Little client for getting profile info from MTEL Montenegro",
     url="https://github.com/infnetdanpro/mtel-montenegro-data/",
-    author="Maksim Artemev",
-    author_email="danpro334@gmail.com",
+    author="Andrey Mironov",
+    author_email="mironovandread164@gmail.com",
     packages=["mtel_client"],
     install_requires=["httpx", "pydantic[email]"],
 )
